@@ -18,6 +18,9 @@ import (
 // swagger:model AddDataSourceCommand
 type AddDataSourceCommand struct {
 
+	//organization ID
+	OrgId string `json:"orgId,omitempty"`
+
 	// access
 	Access DsAccess `json:"access,omitempty"`
 
