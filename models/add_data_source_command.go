@@ -19,7 +19,7 @@ import (
 type AddDataSourceCommand struct {
 
 	//organization ID
-	OrgId string `json:"orgId,omitempty"`
+	OrgId int64 `json:"orgId,omitempty"`
 
 	// access
 	Access DsAccess `json:"access,omitempty"`
